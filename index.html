@@ -1,82 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8" />
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки" />
+	<link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
-		<!-- Начало: Данный блок удалять нельзя -->
-		<style>
-			.maketforfigma{
-				flex: 0 0 auto;
-				/*background: #303b44;*/
-				/*background: #5CDB95;*/
-				background: #313a46;
-				font-weight: bold;
-				display: flex;
-			}
-			.maketforfigma img{
-				border-radius: 10px;
-				margin: 4px 0 0 4px;
-			}
-			.maketforfigma p {
-				/*color: #fff;*/
-				/*color: #05386B;*/
-				color: #98a6ad;
-				text-decoration: none;
-				letter-spacing: .01875rem;
-				font-size: .775rem;
-				padding: 0 10px;
-				line-height: 0.70rem;
-			}
+	<!-- Начало: Данный блок удалять нельзя -->
+	<style>
+		.maketforfigma {
+			flex: 0 0 auto;
+			/*background: #303b44;*/
+			/*background: #5CDB95;*/
+			background: #313a46;
+			font-weight: bold;
+			display: flex;
+		}
 
-			.maketforfigma p > a {
-				/*color: #08ff00;*/
-				/*color: #EDF5E1;*/
-				color: #bbe4f0;
-				font-weight: bold;
-			}
-			.maketforfigma p > a:hover {
-				/*color: #ffa001*/
-				/*color: #379683*/
-				color: #ffffff
-			}
+		.maketforfigma img {
+			border-radius: 10px;
+			margin: 4px 0 0 4px;
+		}
 
-			.main{
-				flex: 1 0 auto;
-			}
+		.maketforfigma p {
+			/*color: #fff;*/
+			/*color: #05386B;*/
+			color: #98a6ad;
+			text-decoration: none;
+			letter-spacing: 0.01875rem;
+			font-size: 0.775rem;
+			padding: 0 10px;
+			line-height: 0.7rem;
+		}
 
-			html{
-				height: 100%;
-			}
+		.maketforfigma p>a {
+			/*color: #08ff00;*/
+			/*color: #EDF5E1;*/
+			color: #bbe4f0;
+			font-weight: bold;
+		}
 
-			body{
-				display: flex;
-				flex-direction: column;
-				height: 100%;
-				padding: 0;
-				margin: 0;
-			}
-		</style>
-		<div class="maketforfigma">
-			<a href="https://t.me/s/FigmaToHTML" target="_blank">
-				<img src="logo.png">
-			</a>
-			<div>
-				<p>
-					Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML/2" target="_blank">FIGMA | Макеты для верстки</a>
-				</p>
-				<p>
-					При помощи бота <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">FIGMA | 💵 Верстай за деньги</a> пользователь получил оплату за верстку этого сайта и попал в рейтинги сайта
-					<a href="https://maketforfigma.ru" target="_blank">FIGMA — Макеты для верстки</a>
-				</p>
+		.maketforfigma p>a:hover {
+			/*color: #ffa001*/
+			/*color: #379683*/
+			color: #ffffff;
+		}
+
+		.main {
+			flex: 1 0 auto;
+		}
+
+		html {
+			height: 100%;
+		}
+
+		body {
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+		}
+	</style>
+	<div class="maketforfigma">
+		<a href="https://t.me/s/FigmaToHTML" target="_blank">
+			<img src="logo.png" />
+		</a>
+		<div>
+			<p>
+				Данная верстка, была реализована пользователем в рамках обучающего
+				телеграм канал
+				<a href="https://t.me/s/FigmaToHTML/2" target="_blank">FIGMA | Макеты для верстки</a>
+			</p>
+			<p>
+				При помощи бота
+				<a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">FIGMA | 💵 Верстай за деньги</a>
+				пользователь получил оплату за верстку этого сайта и попал в рейтинги
+				сайта
+				<a href="https://maketforfigma.ru" target="_blank">FIGMA — Макеты для верстки</a>
+			</p>
+		</div>
+	</div>
+	<!-- Конец -->
+
+	<div class="main">
+		<header class="header">
+			<nav class="navbar">
+				<div class="div logo">
+					<span>QWERy</span>
+				</div>
+				<div class="menu">
+					<a href="#" class="menu__item">Information</a>
+					<a href="#" class="menu__item">About us</a>
+					<a href="#" class="menu__item">Culture</a>
+				</div>
+				<div class="search">
+					<label class="search__icon" for="search">
+						<img src="./images/search.svg" alt="" />
+					</label>
+					<input type="text" id="search" value="" placeholder="search" />
+				</div>
+			</nav>
+			<div class="content">
+				<div class="follow">
+					<span>Follow us</span>
+					<a href=""><img src="images/instagram.svg" alt="" /></a>
+					<a href=""><img src="images/twitter.svg" alt="" /></a>
+					<a href=""><img src="images/facebook.svg" alt="" /></a>
+				</div>
+				<div class="main__headings">
+					<div class="subheading">
+						<hr />
+						<h3>explore the nature beauty</h3>
+					</div>
+					<h1><span>Discover</span><br />Wonderful Indonesia</h1>
+				</div>
 			</div>
-		</div>
-		<!-- Конец -->
+			<div class="scroll-down">
+				<span>Scroll down</span>
+				<div class="down-icon">
+					<img src="images/down.svg" alt="" />
+				</div>
+			</div>
+			<div class="space"></div>
+		</header>
+		<main class="main">
+			<div class="container container--anti-m">
+				<div class="card">
+					<div class="card__img">
+						<img src="images/content1.png" alt="" />
+					</div>
+					<div class="card__content">
+						<div class="subheading">
+							<hr />
+							<h3>east nusa tenggara</h3>
+						</div>
+						<h2>Have you<br />enjoyed your<br />holiday?</h2>
+						<p>
+							You will be amazed if you take part in this sailing Komodo
+							island tour package. So it is also mandatory for you, besides
+							enjoying Komodo tourism on Komodo Island, you also have to taste
+							the marine tourism. The beautiful waters of Komodo will make you
+							meet many travelers from other countries.
+						</p>
+						<button>readmore <img src="./images/right.svg" alt="" /></button>
+					</div>
+				</div>
+			</div>
+			<div class="container container--sm container--relative">
+				<div class="hero">
+					<div class="subheading">
+						<hr />
+						<h3>Bromo</h3>
+						<hr />
+					</div>
+					<h2>Steady your steps, we<br />will climb together!</h2>
+					<p>
+						Enjoying the vast expanse of the sea of ​​​​sand, witnessing the
+						splendor of Mount Semeru that soars into the sky, and gazing at
+						the beauty of the sun moving out of its bed or otherwise enjoying
+						the dim twilight from the Bromo ridge is an unforgettable
+						experience when visiting Bromo.
+					</p>
 
-		<div class="main">
-			В данном блоке размещается верстка
-		</div>
+					<button>readmore <img src="./images/right.svg" alt="" /></button>
+				</div>
+			</div>
+			<div class="container">
+				<div class="card">
+					<div class="card__content">
+						<div class="subheading">
+							<hr />
+							<h3>INDONESIAN CULTURE</h3>
+						</div>
+						<h2>
+							Our culture here<br />is very friendly<br />
+							to people
+						</h2>
+						<p>
+							known for his politeness, manners and gentleness. This becomes a
+							characteristic when they mingle with other tribes and become
+							basic traits that are passed down by their ancestors.
+						</p>
+						<button>readmore <img src="./images/right.svg" alt="" /></button>
+					</div>
+					<div class="card__img">
+						<img src="./images/content2.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
 </body>
+<footer class="footer">
+	<div class="footer__header">
+		<div class="footer__logo">QWERy</div>
+		<div class="footer__buttons">
+			<button>Ready to explore?</button>
+			<button>Get started</button>
+		</div>
+	</div>
+	<div class="footer__main">
+		<div class="form">
+			<h2>Let's go on vacation,<br />Make your day</h2>
+			<form class="subscribe">
+				<input type="text" placeholder="Email address" />
+				<button type="submit">
+					<img src="images/arrow-coolicon-right.svg" alt="" />
+				</button>
+			</form>
+		</div>
+		<table class="links">
+			<tr>
+				<th>Services</th>
+				<th>About</th>
+				<th>Help</th>
+			</tr>
+			<tr>
+				<td><a href="">Email Marketing</a></td>
+				<td><a href="">Our Story</a></td>
+				<td><a href="">FAQs</a></td>
+			</tr>
+			<tr>
+				<td><a href="">Campaigns</a></td>
+				<td><a href="">Benefits</a></td>
+				<td><a href="">Contact Us</a></td>
+			</tr>
+			<tr>
+				<td><a href="">Branding</a></td>
+				<td><a href="">Team</a></td>
+			</tr>
+			<tr>
+				<td><a href="">Offline</a></td>
+				<td><a href="">Careers</a></td>
+			</tr>
+		</table>
+	</div>
+	<aside class="addtional-info">
+		<div class="policy">
+			<a href="">Terms & Conditions</a>
+			<a href="">Privacy Policy</a>
+		</div>
+		<div class="social">
+			<a href=""><img src="./images/facebook.svg" alt="" /></a>
+			<a href=""><img src="./images/twitter.svg" alt="" /></a>
+			<a href=""><img src="./images/instagram.svg" alt="" /></a>
+		</div>
+	</aside>
+	<div class="footer__footer">Copyright 2021 QWERy</div>
+</footer>
+
 </html>
