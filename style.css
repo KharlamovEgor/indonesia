@@ -8,6 +8,10 @@
   box-sizing: inherit;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: black;
@@ -150,11 +154,13 @@ body {
   margin-bottom: 501px;
 }
 
-.scroll-down span {
+.scroll-down a {
   cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
 
-.scroll-down span:hover {
+.scroll-down a:hover {
   text-decoration: underline;
 }
 
